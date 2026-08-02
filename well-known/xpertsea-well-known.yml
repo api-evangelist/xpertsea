@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+description: >-
+  Results of probing the /.well-known/ discovery surface for the Xpertsea /
+  Kampi web hosts (www.xpertsea.com 301-redirects to bekampi.com; the company
+  rebranded and has no API hosts). Status is the HTTP code observed at fetch
+  time on 2026-07-21. No /.well-known/ documents exist on either host. The
+  hosts DO publish /llms.txt (200, text/plain) — saved verbatim at
+  llms/xpertsea-llms.txt.
+hosts:
+  - host: https://www.xpertsea.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+  - host: https://bekampi.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404

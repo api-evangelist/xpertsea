@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=xpertsea
+description: >-
+  First-party packages published under the @xpertsea npm scope, verified via
+  the npm registry API. Both are forks of open-source web/UI components the
+  company republished for its own front-end (last published 2022) — they are
+  NOT client SDKs for a public API; Xpertsea (now rebranded Kampi,
+  bekampi.com) publishes no API client libraries. PyPI, Maven Central, NuGet,
+  pkg.go.dev, RubyGems, Packagist, and crates.io were checked: no xpertsea or
+  kampi first-party packages (the npm package "kampi" is an unrelated
+  third-party placeholder).
+packages:
+  - language: javascript
+    registry: npm
+    name: "@xpertsea/paper-slider"
+    url: https://www.npmjs.com/package/@xpertsea/paper-slider
+    source: https://github.com/Link2Twenty/l2t-paper-slider
+    install: npm install @xpertsea/paper-slider
+    official: true
+    latest: 3.0.0
+    last_published: '2022-04-11'
+    notes: Fork of l2t-paper-slider (Polymer carousel element); UI component, not an API SDK.
+  - language: javascript
+    registry: npm
+    name: "@xpertsea/vaadin-grid"
+    url: https://www.npmjs.com/package/@xpertsea/vaadin-grid
+    source: https://github.com/Xpertsea/vaadin-grid
+    install: npm install @xpertsea/vaadin-grid
+    official: true
+    latest: 6.0.0
+    last_published: '2022-04-11'
+    notes: Fork of vaadin-grid web component; UI component, not an API SDK.

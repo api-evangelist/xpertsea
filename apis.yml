@@ -1,8 +1,14 @@
 aid: xpertsea
 name: Xpertsea
-description: 'Xpertsea is a company surfaced as a portfolio company of qed-investors and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Xpertsea is an aquaculture technology company (backed by QED Investors) that
+  has rebranded its product as Kampi (bekampi.com) — an AI-powered shrimp-farming
+  management app used by producers in Ecuador to monitor ponds, track growth and
+  feed, and make production decisions in real time from mobile and web apps.
+  xpertsea.com now 301-redirects to bekampi.com. The company publishes no public
+  developer program or API surface: no docs/api/developer subdomains, no OpenAPI,
+  and no API client SDKs (its @xpertsea npm scope holds two 2022-era UI-component
+  forks). bekampi.com does publish an llms.txt, captured in this repository.
 url: https://raw.githubusercontent.com/api-evangelist/xpertsea/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,34 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://bekampi.com/wp-content/uploads/2025/10/cropped-cropped-favicon-32x32-1-192x192.png
 tags:
 - Company
 - Fintech
+- Aquaculture
+- Shrimp Farming
+- Agriculture Technology
+- Artificial Intelligence
+- Mobile Applications
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +52,24 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.xpertsea.com
+  url: https://bekampi.com/
+- type: Website
+  url: https://www.xpertsea.com
+- type: Blog
+  url: https://bekampi.com/noticias/
+- type: BlogRSS
+  url: https://bekampi.com/feed/
+- type: Support
+  url: https://bekampi.com/contacto/
+- type: TermsOfService
+  url: https://bekampi.com/terminos-y-condiciones/
+- type: PrivacyPolicy
+  url: https://bekampi.com/politica-de-privacidad/
+- type: GitHubOrganization
+  url: https://github.com/xpertsea
+- type: LLMsTxt
+  url: llms/xpertsea-llms.txt
+- type: Packages
+  url: packages/xpertsea-packages.yml
+- type: DomainSecurity
+  url: security/xpertsea-domain-security.yml
